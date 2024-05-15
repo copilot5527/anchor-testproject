@@ -6,7 +6,7 @@ declare_id!("G3buTvmMGr4guzRftVvy7YX5s24WARiqEPg2dbo8TPSV");
 pub mod temp_project {
     use super::*;
 
-    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+    pub fn initialize(_ctx: Context<Initialize>) -> Result<()> {
         Ok(())
     }
 }
